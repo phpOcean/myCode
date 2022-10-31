@@ -22,13 +22,13 @@ function showCalendar(){
     echo '<table border="1" align="center" width="600">';
     echo '<caption><h1>'.$year.'年'.$month.'月</h1></caption>';
     echo '<tr bgcolor="#add8e6">';
-    echo '<td>星期日</td>';
-    echo '<td>星期一</td>';
-    echo '<td>星期二</td>';
-    echo '<td>星期三</td>';
-    echo '<td>星期四</td>';
-    echo '<td>星期五</td>';
-    echo '<td>星期六</td>';
+    echo '<th>星期日</th>';
+    echo '<th>星期一</th>';
+    echo '<th>星期二</th>';
+    echo '<th>星期三</th>';
+    echo '<th>星期四</th>';
+    echo '<th>星期五</th>';
+    echo '<th>星期六</th>';
     echo '</tr>';
     $num = 1;
     while ($num <= $days){
